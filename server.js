@@ -101,6 +101,10 @@ const checkFileType = (file, cb) => {
 
 // ROUTES
 
+app.post('/', (req, res) => {
+  res.send('patutor backend');
+});
+
 // upload picture
 app.post('/upload/picture/:uid', (req, res) => {
   upload(req, res, err => {
