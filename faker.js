@@ -1,5 +1,5 @@
 const faker = require('faker');
-const Account = require('./server/server.js');
+const Account = require('./server.js');
 
 const generateRandomUser = () => {
   const getRandomInt = (min, max) => {
