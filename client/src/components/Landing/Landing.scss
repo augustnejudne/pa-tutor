@@ -1,0 +1,34 @@
+.home-bg {
+  // background: linear-gradient(#138a3d55, #00000055), url('../../assets/home-bg.jpg');
+  // background-size: cover;
+  // background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+// .container {
+//   height: 100vh;
+// }
+
+// .row {
+//   height: 100%;
+// }
+
+.home-title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.tutor, .student {
+  font-weight: 300;
+  width: 200px;
+  & span {
+    color: red;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+}
