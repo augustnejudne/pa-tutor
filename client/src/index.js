@@ -13,7 +13,7 @@ import rootReducer from './store/reducers.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import './index.scss';
+import './index.css';
 
 // const store = createStore(
 //   rootReducer,

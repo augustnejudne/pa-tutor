@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions.js';
 import { firebase } from '../../firebase.js';
-import './Landing.scss';
+import './Landing.css';
 import axios from 'axios';
 
 const Home = props => {
