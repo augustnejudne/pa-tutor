@@ -101,7 +101,7 @@ const checkFileType = (file, cb) => {
 
 // ROUTES
 
-app.post('/', (req, res) => {
+app.get('/', (req, res) => {
   res.send('patutor backend');
 });
 
